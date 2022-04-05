@@ -9,13 +9,13 @@ const Navbar = () => {
         <>
         <Nav>
             <NavLink to='/' activeStyle>
-                <img src={"/logo.png"} alt="logo"/>
+                <img src={"/logo.svg"} alt="logo"/>
             </NavLink>
             <Bars onClick={showSidebar} />
             <NavMenu className={sidebar ? 'navMenuActive' : ''}>
-                <NavLink to='/releases' activeStyle>News</NavLink>
-                <NavLink to='/models' activeStyle>Models</NavLink>
+                <NavLink to='/announcement' activeStyle>Announcement</NavLink>
                 <NavLink to='/gallery' activeStyle>Gallery</NavLink>
+                <NavLink to='/blog' activeStyle>Blog</NavLink>
                 <NavLink to='/about' activeStyle>About</NavLink>
                 <NavLink to='/contact' activeStyle>Contacts</NavLink>
             </NavMenu>

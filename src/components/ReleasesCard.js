@@ -9,8 +9,8 @@ export default function ReleaseCard() {
     return (
         <div>
             <Card elevation={2}>
-                <CardMedia image="/logo.png" component="img"/>
-                <CardHeader title="Release Title"  subheader="14/09/2021" />
+                <CardMedia image="/logo.svg" component="img"/>
+                <CardHeader title="Announcement Title"  subheader="14/09/2021" />
                 <CardContent>
                     <Typography variant="body2" color="textSecondary">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

@@ -5,7 +5,7 @@ const Releases = () => {
     return (
         <div className="wrapper">
             <h1>
-                Releases
+              Announcements
             </h1>
             <div>
                 <ReleaseGrid />

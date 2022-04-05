@@ -6,7 +6,7 @@ export default () => (
     <Carousel autoPlay infiniteLoop interval="5000" transitionTime="3000" showThumbs={false}>
         <div>
             <img src="https://picsum.photos/700/400?img=1" alt="img1" />
-            <p className="legend">ABB Site`s First Carousel Title</p>
+            <p className="legend">HEDA Site`s First Carousel Title</p>
         </div>
         <div>
             <img src="https://picsum.photos/700/400?img=2" alt="img2" />

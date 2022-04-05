@@ -10,23 +10,25 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import ArrowCircleUpIcon from '@material-ui/icons/ArrowUpward';
 
 const Footer = () => {
     return (
-        <Box>
+        <Box className='footer'>
             <FooterLink href="/">
-                <img src={"/logo.png"} alt="logo"/>
+                <img src={"/logo.svg"} alt="logo"/>
             </FooterLink>
             <Container>
-                <Row>
+                <Row className='footer-links' >
                     <Column>
-                        <FooterLink href="/releases">News</FooterLink>
+                        <FooterLink href="/announcement">Announcement</FooterLink>
                     </Column>
-                    <Column>
-                        <FooterLink href="/models">Models</FooterLink>
-                    </Column>
+
                     <Column>
                         <FooterLink href="/gallery">Gallery</FooterLink>
+                    </Column>
+                    <Column>
+                        <FooterLink href="/blog">Blog</FooterLink>
                     </Column>
                     <Column>
                         <FooterLink href="/about">About</FooterLink>
@@ -54,6 +56,9 @@ const Footer = () => {
                     </FooterLink>
              
                 </Row>
+                 <FooterLink href="#top" className='footerIconRow' >
+                        <ArrowCircleUpIcon className='footerIcon' />
+                 </FooterLink>
             </Container>
         </Box>
     )

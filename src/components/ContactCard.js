@@ -11,7 +11,7 @@ export default function ContactCard() {
     return (
         <div>
             <Card elevation={2}>
-                <CardMedia image="/logo.png" component="img"/>
+                <CardMedia image="/logo.svg" component="img"/>
                 <CardHeader title="Contact name"  subheader="Event Manager" />
                 <CardContent>
                     <Link className="contact-link" to='tel:01923697653'>

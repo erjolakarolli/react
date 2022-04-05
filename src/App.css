@@ -4,6 +4,7 @@ body {
 .content {
     padding-top: 60px;
     flex: 1;
+    margin-bottom: 15px;
 }
 .wrapper {
     max-width: 1200px;
@@ -62,6 +63,9 @@ body {
 /* carousel end */
 
 /* footer start */
+.footer {
+    padding: 50px 0 15px 0 !important;
+}
 .footer-social {
     display: flex !important;
     justify-content: center;    
@@ -69,6 +73,31 @@ body {
 .footer-social a {
     margin: 0 15px; 
 }
+.footerIcon {
+    border: 3px solid white;
+    border-radius: 40px;
+    padding: 10px;
+}
+.footerIcon:hover {
+border-color: red;
+}
+.footerIconRow {
+    display: flex;
+    justify-content: right;
+    margin: 20px 20px 0 0 !important;
+}
+.footer-links {
+    display: flex!important;
+    justify-content: space-evenly;
+}
+.footer-links div {
+    margin-left: 0;
+}
+@media only screen and (max-width: 425px) {
+    .footer-links {
+      flex-direction: column;
+    }
+  }
 /* footer end */
  
 /* contact start */
@@ -85,3 +114,22 @@ body {
     padding-right: 5px;
 }
 /* contact end */
+
+/* announcement start*/
+.sectionTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionTitle a:hover {
+    color: red
+}
+.sectionTitle a {
+    align-items: center;
+    display: flex;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* announcement end*/
