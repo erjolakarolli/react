@@ -19,9 +19,9 @@ export default function ContactCard() {
                         01923697653
                     </Link>
                     <br />
-                    <Link className="contact-link" to='mailto:matthew.bendall@renault.co.uk?subject=Media Inquiry'>
+                    <Link className="contact-link" to='mailto:test@gmail.com?subject=Media Inquiry'>
                         <EmailIcon />
-                        matthew.bendall@renault.co.uk
+                        test@gmail.com
                     </Link>
                 </CardContent>
             </Card>
